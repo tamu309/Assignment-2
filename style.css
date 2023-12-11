@@ -257,15 +257,21 @@ hr{
     #NavbarSection{
         flex-direction: column;
         align-items: center;
-        padding: 5px 0px;
+        padding: 10px 45px 0px 0px;
     }
+
+
+    
+
     #NavbarTextDiv{
         flex-direction: column;
     }
     ul{
-        gap: 20px;
+        gap: 24px;
     }
-
+    #NavberButton{
+        padding-left: 30px;
+    }
     /* Navbar section ended */
 
     /* Banner Section Started */
@@ -361,7 +367,7 @@ hr{
         text-align: center;
         font-family: Poppins;
         padding: 0px 70px 15px 30px;
-        width: 260px;
+        width: 290px;
         height: 500px;
     }
   
