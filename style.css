@@ -259,10 +259,7 @@ hr{
         align-items: center;
         padding: 10px 45px 0px 0px;
     }
-
-
-    
-
+  
     #NavbarTextDiv{
         flex-direction: column;
     }
@@ -278,11 +275,13 @@ hr{
     #BannerSection{
         border-radius: 10px;
         text-align: justify;
+        padding: 10px 10px;
     }
     #BannerSectionMainDiv{
         display: flex;
         flex-direction: column;
         align-content: center;
+        padding: 0px 0px 0px 10px;
         gap: 20px;
     }
     #BannerTextDiv>h1{
@@ -302,11 +301,15 @@ hr{
         flex-direction: column;
         margin: 40px;
     }
+    #FormDiv{
+        padding: 0px 0px 0px 15px;
+    }
+    
 
     #FormDiv>form{
         background-color: #ffffff;
         padding: 10px 10px;
-        width: 220px;
+        width: 250px;
         
     }
     form>input{
