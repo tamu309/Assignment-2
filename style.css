@@ -171,10 +171,49 @@ form>input{
     height: 16px;
 }
 
-
 /* MatchgridDiv CSS End*/
 
  /* Match Section Ended */
+
+
+ /* Extra Section Started */
+#Extra-Section{
+    margin: 10px 50px;
+}
+#ExtraSectionMainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px 10px 30px;
+   gap: 100px;
+}
+#Div1{
+    background-color: #f39191;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #e3e1e1;
+    box-sizing: border-box;
+    padding: 30px 15px 10px 25px;
+    font-size: 25px;
+    text-align: justify;
+    width: 640px;
+}
+#Div1>img{
+    width: 580px;
+    border-radius: 20px;
+   
+}
+
+#Div2{
+    background-color: #f39191;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #b0adad;
+    box-sizing: border-box;
+    padding: 30px 15px 10px 25px;
+    font-size: 28px;
+    text-align: justify;
+    width: 640px;
+}
+
+ /* Extra Section Ended */
 
 
  /* Footer Section Started */
@@ -284,6 +323,34 @@ hr{
     }
 
     /* Match Section Ended */
+
+
+    /* Extra Section Started */
+
+#ExtraSectionMainDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px 10px 10px;
+    gap:30px;
+}
+#Div1{
+    padding: 30px 15px 10px 15px;
+    font-size: 20px;
+    width: 280px;
+}
+#Div1>img{
+    width: 200px;
+}
+
+#Div2{
+    padding: 20px 15px 10px 20px;
+    font-size: 16px;
+    width: 280px;
+}
+
+ /* Extra Section Ended */
+
+
 
 
      /* Footer Section Started */
