@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ /* Navbar Section started  */
+
+#NavbarSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#NavbarTextDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+
+}
+#NavberButton>button{
+   padding: 15px 30px;
+   border-radius: 5px;
+   background-color: #D00;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 16px;
+   color: white;
+   border: none;
+}
+#NavberButton>button:hover{
+    background-color: #f83f3f;
+ }
+ 
+ /* Navbar section ended */
+
+ /* Banner Section Started */
+#BannerSection{
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: black;
+    margin: 10px 50px;
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+}
+
+#BannerSectionMainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    padding: 30px 50px 0 50px;
+}
+
+#BannerTextDiv>h1{
+font-size: 50px;
+}
+
+#BannerImgDiv>img{
+    height: 600px; 
+}
+
+ /* Banner Section Ended */
+
+
+
+
+ /* Match Section Started */
+
+
+#MatchSection{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 50px;
+    gap: 40px;
+    padding: 30px 10px 30px 10px;
+ 
+} 
+
+#FormDiv>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px;
+    gap: 20px;
+    border-radius: 15px;
+    background-color:black;
+    width: 300px;
+}
+form>input{
+    font-size: 24px;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+   
+}
+.MatchformInput{
+    background-color: #d71818;
+    color: #ffffff;
+}
+
+.MatchformInput:hover{
+    background-color: #f40808;
+    
+}
+ 
+ 
+
+/* MatchgridDiv CSS start */
+
+#Grid-Container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+.MatchCardDiv{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #e3e1e1;
+    box-sizing: border-box;
+    padding: 10px 15px 0px 10px;
+    width: 320px;
+}
+.MatchCardDivImg>img{
+    width: 300px;
+    height: 200px;
+}
+
+.MatchCardDivText{
+    width: 300px;
+}
+.MatchCardDivText>button{
+    padding: 5px 20px;
+    background-color: #f83f3f;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.MatchCardDivText>button:hover{
+    background-color: #d30404;
+}
+
+
+
+.ViewsDiv{
+    display: flex;
+    gap: 30px;
+}
+.ViewsDiv1{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.ViewsDiv1>img{
+    height: 16px;
+}
+
+
+/* MatchgridDiv CSS End*/
+
+ /* Match Section Ended */
+
+
+ /* Footer Section Started */
+
+#FooterSection{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 200px 150px 0 150px;
+    height: 300px;
+}
+#FooterSectionH1>h1{
+    text-align: center;
+    font-size: 44px;
+}
+hr{
+    background: #ffffff1a;
+}
+#FooterSectionUl>ul{
+  display: flex;
+  justify-content: space-evenly;
+  gap:1px ;
+  font-size: 16px;
+}
+
+ /* Footer Section Ended */
+
+
+
+
+ /*  Phone Responsive started */
+ @media screen and (max-width:576px){
+    body{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* Navbar Section started */
+    #NavbarSection{
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    #NavbarTextDiv{
+        flex-direction: column;
+    }
+    ul{
+        gap: 20px;
+    }
+
+    /* Navbar section ended */
+
+    /* Banner Section Started */
+    #BannerSection{
+        border-radius: 10px;
+    }
+    #BannerSectionMainDiv{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+    }
+    #BannerTextDiv>h1{
+        font-size: 34px;
+    }
+    #BannerImgDiv>img{
+        height:300px ;
+        width: 200px;  
+     
+    }
+   
+
+    /* Banner Section Ended */
+
+    /* Match Section Started */
+    #MatchSection{
+        flex-direction: column;
+        margin: 40px;
+    }
+
+    #FormDiv>form{
+        background-color: #ffffff;
+        padding: 10px 0px;
+        width: 300px;
+        
+    }
+    form>input{
+        padding: 15px;
+        border-radius: 10px ;
+    }
+    #Grid-Container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .MatchCardDiv{
+        width: 260px;
+    }
+    .MatchCardDivImg>img{
+        width: 240px;
+        height: 200px;
+    }
+    
+    .MatchCardDivText{
+        width: 240px;
+    }
+
+    /* Match Section Ended */
+
+
+     /* Footer Section Started */
+
+     #FooterSection{
+        flex-direction: column;
+        text-align: center;
+        font-family: Poppins;
+        padding: 0px 70px 15px 30px;
+        width: 290px;
+        height: 500px;
+    }
+  
+    #FooterSectionUl>ul{
+      flex-direction: column;
+      gap:5px ;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 50px;
+      color: #B9B9B9;
+      padding: 20px 70px 0 70px;
+    }
+    hr{
+        width: 200px;
+        background-color:#111010 ;
+    }
+
+
+     /* Footer Section Ended */
+
+ }
